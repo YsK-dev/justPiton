@@ -1,29 +1,3 @@
-# Youtube video donwloader with python
-
-
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-I bored of non-sense advertising
--
-- ✨Magic ✨
-
-
-
-
-For production environments...
-
-```py
-pip install pytube
-
-```
-
-
-#### Building for source
-
-For production release:
-
-```py
 from pytube import YouTube
 import os
 
@@ -52,13 +26,3 @@ try:
 
 except Exception as e:
     print("Bir hata oldu kusura bakma -->", str(e))
-```
-![Nasıl indiriyorum](deneme.png)
-
-
-
-## License
-
-MIT
-
-**Free Software, Hell Yeah!**
